@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bootcamp-devops-labs",
+  "private_key_id": "fec4f85af6783f01e440a66a8283137f3c88dfe3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC9P3rUIXrQ7MPg\nt1sUY6HdPYM9B8tFSMeajJvs4OhQ3k1Dj5q9ckLhMHuabRTafFUW/B5uNAUH3fKZ\nKLF6DTR6rEqRHgnZE2Y51jFAYJij1Sj9pDVkUZV6oHfTkSFgffwskTmM+hNDUn4A\np958w+SKV15uENR/TDdr4MVugUVU5siAzxhBuizK3yKWZIGCeoMeBa0OAHpfp1JF\nUW16TPFk+L8TnKJincD4N9iGBAEsqqYoZe5xw9+FiYxqskGEPb6SSi8xCrTCksxV\nrB9RL5QiQrLstv7MtfPyccwQ0rm0E0T2UolEKxmfqdjvckQENa6J4393Z19vIrtJ\noGbjma/9AgMBAAECggEAJBsR3Jn8nBKn9l4VDulJTvP273RmuDO//UD5WLK6L/+R\nnyOtQpqjnuIImvhXw6138HgueBkNoqgaKlVksuQFEKiBW3lvKI62cK9oWx9yz8MR\n3H5xP0//ZFNsOR2V0BqJO5mDcN2fQjdhWc+tN4GKP0iW+AnW+Oh6JGdQU5pvN1iy\nCkbNKwudvbBcyKjqQggmei/TCP471SWRas+1v8j+nvhOlIBSlBUq59QUASq6bToT\nUCVpJzkfwIXF9aGTuAJUgtSw5TRgU6SL0Xpx9miB/6vUPaxbtrd6ZM8i8qihBZbr\n+9uPmjoeD+aZX5cIYXVZH6IiG6pUxT9YdJHxrD79QwKBgQD1Q+hOrm/uaytribTf\nIU0VXYYxi2ToEIDug3nMQ8oeiwi9PN4mFDOyxofLI24fqRSIpPaPfQ/uKTmZD0xu\n4Qpe1rWAJoiAwjrDePlH8ZInfRwzyfXkXull7NMeXB/g2ANNaflYIT/EXvl1fd5h\n7pvep63lsNBvW4C0t62TE5h2swKBgQDFh+wnHXxJgW5mZAZ1BRtHMSbF7XpVyilQ\n8Z3Mhr6kIThcumEE10T8ra4hkVVtDqsEyUSnzPJJl2knoTl3524f3Ca2OsqmkzAc\nT+mCQTYVGo2oc+mKz4TPiKJRVITozforriPokdgnJ421rLgx4g1bXW2x+v6myZXZ\nfMz5ydQWjwKBgFzSlYHprLz73FP3qvdjYAv8+EOZ8NePH2ylX5w57629itIrzht1\nO9emIVB1GUFsOTQ50oKdn0DQY1cVHiU8kDMyaUCV1MV+PMUr7JQYzeqaA+lpvuDu\nNsD3bzMnRH1Q43cR62c6Nir4ksqvl1FS/7S1my+5yjjK1ZwPg+aM3P/XAoGAC7Wk\nBSmVTZIzpjQ1wcgcttquDrumLeG/E0JPdWljcb1aZvzRdYUBXO06zlicNMvSzYTU\n4hGfJ0enfybqjjYU7CST0uenTbqZ9oOyNvuApj2duies54Knv9m8rY+SFW7obqBz\nFn1Wz/NjTiq//I0G96yRLSTQ5bg7ftoMGJ6jSPcCgYAMrN2J9fAqyuO9fXxCMgVX\nT0SstE/ZffcedMrd+QntYFBn3y73X+4UEz3D/g5lR4W+rJrfEWlfMsc47potg+aq\ndLRPahofEulQPI78C5WK92AUtUZPaO6RFb8H8mBSyAgpwgKAuF/qpGsmINJlc4J0\nSKzlHZLpZeGL2PfBKcVZUQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "devopslabs@bootcamp-devops-labs.iam.gserviceaccount.com",
+  "client_id": "101500822033889847971",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/devopslabs%40bootcamp-devops-labs.iam.gserviceaccount.com"
+}
