@@ -1,23 +1,20 @@
-# Cloud-DevOps-Experience-DIO
+# Desafios google cloud fundamentos
 
-Prepare-se Para a Jornada (Onboarding),
-Conhecendo o Sistema Operacional Linux,
-Desmistificando o Docker,
-Kubernetes do Zero à Produção,
-Arquiteturas de Aplicações e CI/CD na Prática,
-Google Cloud Foundations,
-DevOps na Nuvem com Google Cloud Plataform (GCP).
+Print Diagrama 
+<img align="center" alt="diagrama" height="800" width="1200" src= "https://user-images.githubusercontent.com/91704169/194937390-c92e6555-3db6-41ac-b831-60e4ab1f409a.png"/> 
 
-
-<img src="https://user-images.githubusercontent.com/91704169/191581430-1fa4aa30-61f4-444d-a0b9-ef42fbe746de.png" min-width="200px" max-width="200px" width="200
-px" align="left" alt="Devops-Dio">
-
-<img src="https://user-images.githubusercontent.com/91704169/191858832-7f7a44fa-6f38-4ae9-871c-d9fccc8ab5f8.png" min-width="600px" max-width="600px" width="600
-px" align="rigth" alt="Dio">
-
- </div>
+Biliing alarme
+<img align="center" alt="orçamento" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937422-6e068bb2-47d7-4acf-81c1-f2645003601b.png"/>       
   
-![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
+Grafico BigQuery
+ <img align="center" alt="BigQuery" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937409-ca953ea7-a3ef-4223-95ff-8a10bd249ad7.png"/> 
+ 
+Cloud Shell
+<img align="center" alt="cloudShell" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937538-d0e4844b-d8d9-4151-9677-71ed4a5ca40e.png"/>
+
+Personalizando Dashbord e Idioma
+
+<img align="center" alt=" dashbord" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937474-3c3e2c64-56a0-41aa-9ba8-e284965feeeb.png"/>
 
 
 <p align="left">
@@ -30,7 +27,6 @@ px" align="rigth" alt="Dio">
 <img align="center" alt="Rafa-Js" height="45" width="50" src="https://camo.githubusercontent.com/2582ec2237a3a1fbd34e9b57332b72be27a7facb32abe7c2335e5f86e5f457a8/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6d7973716c2f6d7973716c2d6f726967696e616c2e737667"/>
 <img align="center" alt="Rafa-Js" height="50" width="55" src="https://camo.githubusercontent.com/dd8b0601cdfefe534a6a26f4c29c7f8a5fcfc315002655f519c73121f7bad8bc/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f707974686f6e2f707974686f6e2d6f726967696e616c2e737667"/>
 <img align="center" alt="Rafa-Js" height="60" width="55" src="https://user-images.githubusercontent.com/91704169/191961752-ad1d9b23-fa5a-4ccf-bbf3-0689bf54b0bf.png" />
-
  
 
 
