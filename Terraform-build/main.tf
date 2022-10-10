@@ -1,17 +1,3 @@
-terraform {
-  required_providers {
-    google = {
-      source = "hashicorp/google"
-    }
-  }
-
-   backend "gcs" {
-    bucket  = "labdevops"
-    prefix  = "terraform/state"
-  }
-  
-}
-
 provider "google" {
   project = "bootcamp-devops-labs"
   region  = "us-central1"
