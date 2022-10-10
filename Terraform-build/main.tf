@@ -1,5 +1,5 @@
 provider "google" {
-  project = "bootcamp-devops-labs"
+  project = "bootcamp-363315"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
