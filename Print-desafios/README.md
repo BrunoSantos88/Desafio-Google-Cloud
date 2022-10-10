@@ -1,14 +1,21 @@
 # Desafios google cloud fundamentos
 
-CLUSTER GKE 
-<img align="center" alt="kubectl" height="800" width="1200" src= "https://user-images.githubusercontent.com/91704169/193296314-6d6f758d-25a6-4d39-8fe6-278304f9fd53.png"/> 
+Print Diagrama 
+<img align="center" alt="diagrama" height="800" width="1200" src= "https://user-images.githubusercontent.com/91704169/194937390-c92e6555-3db6-41ac-b831-60e4ab1f409a.png"/> 
 
-PRINT acesso http
-<img align="center" alt="Rafa-Js" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/193293384-a8a1eb29-d475-456d-ba89-322ba0213005.png"/>       
+Biliing alarme
+<img align="center" alt="orçamento" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937422-6e068bb2-47d7-4acf-81c1-f2645003601b.png"/>       
   
-Secrets Git e tokem Gitaction criadas
- <img align="center" alt="Rafa-Js" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/193298340-3f667fa3-4df7-4fe2-a4b8-ff6b88724a67.png"/> 
+Grafico BigQuery
+ <img align="center" alt="BigQuery" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937409-ca953ea7-a3ef-4223-95ff-8a10bd249ad7.png"/> 
  
+Cloud Shell
+<img align="center" alt="cloudShell" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937538-d0e4844b-d8d9-4151-9677-71ed4a5ca40e.png"/>
+
+Personalizando Dashbord e Idioma
+
+<img align="center" alt=" dashbord" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937474-3c3e2c64-56a0-41aa-9ba8-e284965feeeb.png"/>
+
 
 <p align="left">
        
