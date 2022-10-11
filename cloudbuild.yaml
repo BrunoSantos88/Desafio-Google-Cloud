@@ -6,6 +6,6 @@ steps:
   args: 
   - '-c'
   - | 
-   
-    terraform init
+
+    terraoform fmt
     terraform apply -auto-approve
