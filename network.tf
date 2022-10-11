@@ -1,13 +1,13 @@
-resource "google_compute_subnetwork" "subnet-aplicaçao" {
-  name          = "coneçao-app-frontend"
-  ip_cidr_range = "10.2.0.0/16"
+resource "google_compute_subnetwork" "network-with-private-ip-ranges" {
+  project       = "bootcamp-363315"
+  name          = "rede-subnetwork"
+  ip_cidr_range = "192.10.0.0/24"
   region        = "us-central1"
-  network       = google_compute_network.network-aplicaçao.id
+  network       = google_compute_network.rede-america-norte.id
 }
+  
 
-resource "google_compute_network" "network-aplicaçao" {
-  project                 = "bootcamp-363315"
-  name                    = "test-network"
+resource "google_compute_network" "rede-america-norte" {
+  name                    = "vpc-america-norte"
   auto_create_subnetworks = false
-  mtu                     = 1460
 }
