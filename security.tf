@@ -16,7 +16,6 @@ project       = "bootcamp-363315"
 
   // Allow traffic from everywhere to instances with an http-server tag
   source_ranges = ["0.0.0.0/0"]
-  source_tags   = ["jobs"]
-  target_tags   = ["frontend"]
+  
 
 }
