@@ -1,7 +1,7 @@
 # Criando Pipeline de CI/CD com Criando Pipeline de CI/CD com Cloud Build e Terraform
 
 Print  Pipeline de CI/CD com Cloud Build e Terraform
-<img align="center" alt="diagrama" height="900" width="900" src= "https://user-images.githubusercontent.com/91704169/195138856-a11c398b-9ce7-4ca2-9d55-26374c25b5af.png"/> 
+<img align="center" alt="diagrama" height="900" width="900" src= "https://user-images.githubusercontent.com/91704169/195138711-37e23a90-3951-4373-9813-042dc156c18c.png"/> 
 
 
 <p align="left">
