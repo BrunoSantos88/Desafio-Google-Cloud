@@ -1,6 +1,6 @@
 resource "google_compute_firewall" "frontend" {
   name    = "infraestrutura-firewall"
-  network = google_compute_network.rede-america-norte.id
+  network = "vpc_network"
 
   allow {
     protocol = "icmp"
