@@ -18,11 +18,13 @@ resource "google_compute_instance" "servidorweb" {
 
   network_interface {
     # A default network is created for all GCP projects
-    network = "frontend-infraestruitura"
-    access_config {
+    network = google_compute_network.frontend-vpc.id
 
+      access_config {
+      // Ephemeral public IP
     }
   }
+
   metadata_startup_script = file("./servidorweb.sh")
 
 }
