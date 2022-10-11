@@ -16,6 +16,6 @@ steps:
   args: 
   - '-c'
   - | 
-
+    cd build-terraform
     terraform init
     terraform apply -auto-approve
