@@ -1,8 +1,3 @@
-provider "google" {
-  project = "bootcamp-363315"
-  region  = "us-central1"
-}
-
 resource "google_compute_firewall" "frontend" {
   name    = "frontend-firewall"
   network = "frontend-infraestruitura"

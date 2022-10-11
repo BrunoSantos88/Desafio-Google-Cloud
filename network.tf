@@ -1,8 +1,3 @@
-provider "google" {
-  project = "bootcamp-363315"
-  region  = "us-central1"
-}
-
 resource "google_compute_subnetwork" "subnet-frontend" {
   name          = "frontend-vpc-subnetwork"
   ip_cidr_range = "10.2.0.0/16"
