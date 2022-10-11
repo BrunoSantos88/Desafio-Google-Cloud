@@ -1,3 +1,8 @@
+provider "google" {
+  project = "bootcamp-363315"
+  region  = "us-central1"
+}
+
 resource "google_compute_instance" "servidorweb" {
   name         = "frontend"
   machine_type = "e2-standard-4"

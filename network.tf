@@ -1,9 +1,3 @@
-provider "google" {
-  project = "bootcamp-363315"
-  region  = "us-central1"
-}
-
-
 resource "google_compute_network" "vpc_network" {
   project                 = "my-project-name"
   name                    = "vpc-network"
