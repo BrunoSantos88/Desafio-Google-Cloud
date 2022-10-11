@@ -11,7 +11,7 @@ resource "google_compute_instance" "servidorweb" {
 
   boot_disk {
     initialize_params {
-      image = "ubuntu-pro-1804-bionic-v20221006"
+      image = "ubuntu-1804-bionic-v20221005"
       size  = 50
       type  = "pd-ssd"
     }
