@@ -5,16 +5,16 @@ terraform {
     }
   }
 }
+
 provider "google" {
-  project = "bootcamp-363315"
+  project = "barbero-devops-iac"
   region  = "us-central1"
-  zone    = "us-central1-a"
+  zone    = "us-central1-c"
 }
 
 resource "google_compute_instance" "ServidorWeb" {
-  name         = "ServidorWeb"
+  name         = "frontend"
   machine_type = "e2-standard-4"
-  zone         = "us-central1-a"
 
   boot_disk {
     initialize_params {
