@@ -1,13 +1,20 @@
+terraform {
+  required_providers {
+    google = {
+      source = "hashicorp/google"
+    }
+  }
+}
 provider "google" {
   project = "bootcamp-363315"
   region  = "us-central1"
-  zone    = "us-central1-c"
+  zone    = "us-central1-a"
 }
 
 resource "google_compute_instance" "ServidorWeb" {
   name         = "ServidorWeb"
   machine_type = "e2-standard-4"
-  zone         = "us-central1"
+  zone         = "us-central1-a"
 
   boot_disk {
     initialize_params {
@@ -24,6 +31,5 @@ network_interface {
     
   }
 }
-    metadata_startup_script = "${file("./servidorweb.sh")}" 
-  
+
 }
