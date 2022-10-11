@@ -12,18 +12,15 @@ provider "google" {
 }
 
 
-resource "google_compute_instance" "servidorweb" {
+resource "google_compute_instance" "ServidorWeb" {
   name         = "frontend"
-  machine_type = "e2-standard-4"
-  tags = ["frontend"]
+  machine_type = "f1-micro"
+  tags = ["prod"]
 
-  }
 
   boot_disk {
     initialize_params {
-      image = "ubuntu-1804-bionic-v20211103"
-      size  = 50
-      type  = "pd-ssd"
+      image = "debian-cloud/debian-11"
     }
   }
 
