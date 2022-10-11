@@ -13,7 +13,7 @@ resource "google_compute_instance" "ServidorWeb" {
 
   network_interface {
   # A default network is created for all GCP projects
-  network = "rede-america-norte"
+  network = google_compute_network.rede-america-norte.id
   access_config {
     
   }
