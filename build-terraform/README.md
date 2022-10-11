@@ -1,20 +1,7 @@
 # Desafios google cloud fundamentos
 
 Print Diagrama 
-<img align="center" alt="diagrama" height="800" width="1200" src= "https://user-images.githubusercontent.com/91704169/194937390-c92e6555-3db6-41ac-b831-60e4ab1f409a.png"/> 
-
-Biliing alarme
-<img align="center" alt="orçamento" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937422-6e068bb2-47d7-4acf-81c1-f2645003601b.png"/>       
-  
-Grafico BigQuery
- <img align="center" alt="BigQuery" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937409-ca953ea7-a3ef-4223-95ff-8a10bd249ad7.png"/> 
- 
-Cloud Shell
-<img align="center" alt="cloudShell" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937538-d0e4844b-d8d9-4151-9677-71ed4a5ca40e.png"/>
-
-Personalizando Dashbord e Idioma
-
-<img align="center" alt=" dashbord" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937474-3c3e2c64-56a0-41aa-9ba8-e284965feeeb.png"/>
+<img align="center" alt="diagrama" height="800" width="1200" src= "https://user-images.githubusercontent.com/91704169/195138856-a11c398b-9ce7-4ca2-9d55-26374c25b5af.png"/> 
 
 
 <p align="left">
