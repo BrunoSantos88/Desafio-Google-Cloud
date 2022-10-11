@@ -18,12 +18,12 @@ resource "google_compute_instance" "servidorweb" {
   }
 
   network_interface {
-  # A default network is created for all GCP projects
-  network = "default"
-  access_config {
-    
+    # A default network is created for all GCP projects
+    network = "default"
+    access_config {
+
+    }
   }
-}
-    metadata_startup_script = "${file("./servidorweb.sh")}" 
-  
+  metadata_startup_script = file("./servidorweb.sh")
+
 }

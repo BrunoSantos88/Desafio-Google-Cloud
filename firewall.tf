@@ -8,7 +8,7 @@ resource "google_compute_firewall" "frontend" {
 
   allow {
     protocol = "tcp"
-    ports    = ["22","80","8080","443","3000"]
+    ports    = ["22", "80", "8080", "443", "3000"]
   }
 
   source_tags   = ["frontend"]

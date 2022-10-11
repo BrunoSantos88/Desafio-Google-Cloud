@@ -7,5 +7,6 @@ steps:
   - '-c'
   - | 
 
+    terraform init
     terraform fmt
-    terraform apply network.tf
+    terraform apply -auto-approve
