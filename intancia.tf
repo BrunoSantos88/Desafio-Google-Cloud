@@ -13,7 +13,7 @@ resource "google_compute_instance" "servidorweb" {
 
   network_interface {
     # A default network is created for all GCP projects
-    network = "frontend-infraestruitura"
+    network = google_compute_network.frontend-rede.id
 
       access_config {
       // Ephemeral public IP
