@@ -1,20 +1,13 @@
-terraform {
-  required_providers {
-    google = {
-      source = "hashicorp/google"
-    }
-  }
-
-
-resource "google_compute_instance" "ServidorWeb" {
-  name         = "frontend"
-  machine_type = "f1-micro"
-  tags = ["prod"]
-
+resource "google_compute_instance" "monitoramento" {
+  name         = "monitoramento-server"
+  machine_type = "e2-standard-4"
+  zone         = "southamerica-east1-b"
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-11"
+      image = "ubuntu-pro-1804-bionic-v20221006"
+      size  = 50
+      type  = "pd-ssd"
     }
   }
 
