@@ -4,17 +4,20 @@ terraform {
       source = "hashicorp/google"
     }
   }
-}
 
 provider "google" {
-  project = "barbero-devops-iac"
+  project = "bootcamp-363315"
   region  = "us-central1"
   zone    = "us-central1-c"
 }
 
-resource "google_compute_instance" "ServidorWeb" {
+
+resource "google_compute_instance" "servidorweb" {
   name         = "frontend"
   machine_type = "e2-standard-4"
+  tags = ["frontend"]
+
+  }
 
   boot_disk {
     initialize_params {
@@ -24,12 +27,13 @@ resource "google_compute_instance" "ServidorWeb" {
     }
   }
 
-network_interface {
+  network_interface {
   # A default network is created for all GCP projects
   network = "default"
   access_config {
     
   }
 }
-
+    metadata_startup_script = "${file("./servidorweb.sh")}" 
+  
 }
