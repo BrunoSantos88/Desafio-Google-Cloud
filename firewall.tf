@@ -1,6 +1,11 @@
+provider "google" {
+  project = "bootcamp-363315"
+  region  = "us-central1"
+}
+
 resource "google_compute_firewall" "frontend" {
   name    = "frontend-firewall"
-  network = google_compute_network.frontend-vpc.id
+  network = "frontend-infraestruitura"
 
   allow {
     protocol = "icmp"
