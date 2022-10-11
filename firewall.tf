@@ -1,5 +1,5 @@
 resource "google_compute_firewall" "frontend" {
-  name    = "moninoramento-firewall"
+  name    = "frontend-firewall"
   network = google_compute_network.frontend-vpc.id
 
   allow {
