@@ -3,16 +3,15 @@ provider "google" {
   region  = "us-central1"
 }
 
-resource "google_compute_network" "vpc_network" {
-  name                    = "vpc-network"
-  auto_create_subnetworks = false
-  mtu                     = 1460
+resource "google_compute_subnetwork" "subnet-with-logging" {
+  name          = "log-test-subnetwork"
+  ip_cidr_range = "10.2.0.0/16"
+  region        = "us-central1"
+  network       = google_compute_network.custom-test.id
+
 }
 
-
-resource "google_compute_subnetwork" "network-with-private-ip-ranges" {
-  name          = "rede-subnetwork"
-  ip_cidr_range = "192.10.0.0/24"
-  region        = "us-central1"
-  network       = google_compute_network.vpc_network.id
+resource "google_compute_network" "custom-test" {
+  name                    = "log-test-network"
+  auto_create_subnetworks = false
 }
