@@ -28,10 +28,3 @@ resource "google_compute_instance" "ServidorWeb" {
     metadata_startup_script = "${file("./ShellScript/servidorweb.sh")}" 
   
 }
-
-  network_interface {
-    network = google_compute_network.rede-america-norte.id
-    access_config {
-    }
-  }
-  
