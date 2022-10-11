@@ -1,6 +1,6 @@
 resource "google_compute_firewall" "frontend" {
   name    = "infraestrutura-firewall"
-  network = "vpc_network"
+  network = "default"
 
   allow {
     protocol = "icmp"
