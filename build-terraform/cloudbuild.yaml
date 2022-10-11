@@ -6,5 +6,5 @@ steps:
   args: 
   - '-c'
   - | 
-    terraform init
+    cd build-terraform
     terraform destroy -auto-approve
