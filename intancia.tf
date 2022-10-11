@@ -1,3 +1,9 @@
+provider "google" {
+  project = "bootcamp-363315"
+  region  = "us-central1"
+  zone    = "us-central1-c"
+}
+
 resource "google_compute_instance" "ServidorWeb" {
   name         = "ServidorWeb"
   machine_type = "e2-standard-4"
