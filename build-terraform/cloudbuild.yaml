@@ -1,6 +1,6 @@
 steps:
 
-- id: 'tf destroy'
+- id: 'tf apply'
   name: 'hashicorp/terraform:1.0.0'
   entrypoint: 'sh'
   args: 
@@ -8,4 +8,4 @@ steps:
   - | 
     cd build-terraform
     terraform init
-    terraform destroy -auto-approve
+    terraform apply -auto-approve
