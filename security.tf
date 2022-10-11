@@ -1,6 +1,6 @@
-resource "google_compute_firewall" "rules" {
+resource "google_compute_firewall" "frontend" {
 project       = "bootcamp-363315"
-  name        = "Frontend-security"
+  name        = "Frontend"
   network     = "default"
   description = "Creates firewall rule targeting tagged instances frontend"
 
