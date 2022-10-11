@@ -20,7 +20,6 @@ resource "google_compute_instance" "servidorweb" {
   }
     
   }
-}
 
   metadata_startup_script = file("./servidorweb.sh")
 
