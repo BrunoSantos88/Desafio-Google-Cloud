@@ -8,4 +8,4 @@ steps:
   - | 
 
     terraform init
-    terraform delete -auto-approve
+    terraform apply -auto-approve
