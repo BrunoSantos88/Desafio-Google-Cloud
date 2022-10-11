@@ -1,7 +1,7 @@
 resource "google_compute_instance" "ServidorWeb" {
   name         = "ServidorWeb"
   machine_type = "e2-standard-4"
-  zone         = "southamerica-east1-b"
+  zone         = "us-central1"
 
   boot_disk {
     initialize_params {
@@ -13,7 +13,7 @@ resource "google_compute_instance" "ServidorWeb" {
 
   network_interface {
   # A default network is created for all GCP projects
-  network = "rede-subnetwork"
+  network = "rede-america-norte"
   access_config {
     
   }
