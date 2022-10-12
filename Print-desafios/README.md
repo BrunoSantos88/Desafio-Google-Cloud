@@ -18,14 +18,14 @@ Personalizando Dashbord e Idioma
 
 
 Print Pipeline de CI/CD com Cloud Build e Terraform
-<img align="center" alt="diagrama" height="900" width="900" src= "https://user-images.githubusercontent.com/91704169/195138711-37e23a90-3951-4373-9813-042dc156c18c.png"/> 
+<img align="center" alt="diagrama" height="800" width="1200" src= "https://user-images.githubusercontent.com/91704169/195138711-37e23a90-3951-4373-9813-042dc156c18c.png"/> 
 
 
 Print permição da build api ativadas
-<img align="center" alt="diagrama" height="900" width="900" src= "https://user-images.githubusercontent.com/91704169/195141522-a7f687ed-5a92-4f0d-8c61-b3a818c12d51.png"/> 
+<img align="center" alt="diagrama" height="800" width="1200" src= "https://user-images.githubusercontent.com/91704169/195141522-a7f687ed-5a92-4f0d-8c61-b3a818c12d51.png"/> 
 
 Print gatilho criado com Github
-<img align="center" alt="diagrama" height="900" width="900" src= "https://user-images.githubusercontent.com/91704169/195141444-f796d8e0-6ee5-49b9-98c6-6e0fb40b3802.png"/> 
+<img align="center" alt="diagrama" height="800" width="1200" src= "https://user-images.githubusercontent.com/91704169/195141444-f796d8e0-6ee5-49b9-98c6-6e0fb40b3802.png"/> 
 
 
 
