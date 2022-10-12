@@ -1,4 +1,4 @@
-resource "google_compute_firewall" "bandend" {
+resource "google_compute_firewall" "backend" {
   project = "bootcamp-363315"
   name    = "frontend-firewall"
   network = "frontend-infra-rede"
