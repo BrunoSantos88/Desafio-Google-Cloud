@@ -17,6 +17,18 @@ Personalizando Dashbord e Idioma
 <img align="center" alt=" dashbord" height="800" width="1200" src="https://user-images.githubusercontent.com/91704169/194937474-3c3e2c64-56a0-41aa-9ba8-e284965feeeb.png"/>
 
 
+Print Pipeline de CI/CD com Cloud Build e Terraform
+<img align="center" alt="diagrama" height="900" width="900" src= "https://user-images.githubusercontent.com/91704169/195138711-37e23a90-3951-4373-9813-042dc156c18c.png"/> 
+
+
+Print permição da build api ativadas
+<img align="center" alt="diagrama" height="900" width="900" src= "https://user-images.githubusercontent.com/91704169/195141522-a7f687ed-5a92-4f0d-8c61-b3a818c12d51.png"/> 
+
+Print gatilho criado com Github
+<img align="center" alt="diagrama" height="900" width="900" src= "https://user-images.githubusercontent.com/91704169/195141444-f796d8e0-6ee5-49b9-98c6-6e0fb40b3802.png"/> 
+
+
+
 <p align="left">
        
 <img align="center" alt="Rafa-Js" height="45" width="50" src="https://camo.githubusercontent.com/f91b95eb3d491ce5372409236b4332ef937a8898749f296cad370f17610ca1cf/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f67726166616e612f67726166616e612d6f726967696e616c2d776f72646d61726b2e737667"/>       
