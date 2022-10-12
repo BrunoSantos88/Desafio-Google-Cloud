@@ -12,8 +12,8 @@ resource "google_compute_instance" "servidorweb" {
   }
 
   network_interface {
-    network    = google_compute_network.frontend-vpc.id
-    subnetwork = google_compute_subnetwork.subnet-frontend.id
+    network    = "frontend-infraestruitura"
+    subnetwork = "frontend-vpc-subnetwork"
 
     access_config {
     }

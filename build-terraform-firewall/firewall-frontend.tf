@@ -1,7 +1,7 @@
 resource "google_compute_firewall" "frontend" {
   project = "bootcamp-363315"
   name    = "frontend-firewall"
-  network = google_compute_network.frontend-vpc.id
+  network = "frontend-rede"
   allow {
     protocol = "icmp"
   }
