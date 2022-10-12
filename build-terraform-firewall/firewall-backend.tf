@@ -1,6 +1,6 @@
-resource "google_compute_firewall" "frontend" {
+resource "google_compute_firewall" "backend" {
   project = "bootcamp-363315"
-  name    = "frontend-firewall"
+  name    = "backend-firewall"
   network = "backend-infra-rede"
   allow {
     protocol = "icmp"
@@ -8,10 +8,10 @@ resource "google_compute_firewall" "frontend" {
 
   allow {
     protocol = "tcp"
-    ports    = ["22","80","3306","443"]
+    ports    = ["22","80","8080","443"]
   }
 
-  source_tags   = ["backend"]
+  source_tags   = ["frontend"]
   source_ranges = ["0.0.0.0/0"]
 
 }
