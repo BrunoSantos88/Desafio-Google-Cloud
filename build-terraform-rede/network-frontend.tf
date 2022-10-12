@@ -7,6 +7,6 @@ resource "google_compute_subnetwork" "subnet-frontend" {
 }
 
 resource "google_compute_network" "frontend-vpc" {
-  name                    = "frontend-rede"
+  name                    = "frontend-infra-rede"
   auto_create_subnetworks = false
 }
