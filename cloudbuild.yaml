@@ -8,7 +8,7 @@ steps:
   - | 
     cd build-terraform-rede
     terraform init
-    terraform destroy -auto-approve
+    terraform apply -auto-approve
 
 
 - id: 'tf apply security-rede'
@@ -19,7 +19,7 @@ steps:
   - | 
    cd build-terraform-firewall
    terraform init
-   terraform destroy -auto-approve
+   terraform apply -auto-approve
 
 
 
@@ -31,4 +31,4 @@ steps:
   - | 
     cd build-terraform-compute
     terraform init
-    terraform destroy -auto-approve
+    terraform apply -auto-approve
